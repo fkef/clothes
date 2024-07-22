@@ -1,0 +1,59 @@
+
+
+html{ background-color: black;}
+
+h1{ color: gold;
+;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+; font-style: italic;}
+
+.hj{
+    background-color: white;
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hj li{
+    display: inline-block;
+    font-family: 20px;
+    padding: 20px;
+}
+
+a:link{
+    text-decoration: none;
+}
+img{width: 500px;}
+h2{ text-align: center;
+color: gold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+#op{
+    font-family: 'Courier New', Courier, monospace;
+    width: 1000px;
+    border-collapse: collapse;
+}
+
+#op td, #op th{
+    border: solid 2px white;
+    padding: 8px;
+}
+
+
+#op tr:nth-child(even){
+    background-color: #ccc
+}
+#op tr:hover{
+   background-color: white;
+}
+
+#op th{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+    background-color:  white;
+    color: #ccc;
+}
+table{
+    color: black;
+}

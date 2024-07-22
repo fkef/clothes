@@ -1,0 +1,44 @@
+
+
+input[type="id"]{
+    padding: 10px20px;
+    border: solid 1px black;
+    width: 1000px;
+    height: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+input[type="password"]{
+    padding: 10px20px;
+    border: solid 1px black;
+    width: 1000px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+div{
+    background-color: #ccc;
+    width: 1020px;
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+    ;font-weight: 20px;
+}
+
+a:link{
+    padding: 10px 20px;
+    border: solid 2px black;
+    background-color: white;
+    text-decoration: none;
+    width: 120px;
+}
